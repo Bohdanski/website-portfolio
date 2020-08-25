@@ -4,17 +4,17 @@
 
 /***************[ Tag Selectors ]***************/
 
-head{
+head {
   margin: 0;
 }
 
-body{
+body {
   margin: 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
 
-h1{
+h1 {
   color: #57a99a;
   font-family: 'Sofia', cursive;
   font-size: 5.625em;
@@ -23,59 +23,59 @@ h1{
   text-align: center;
 }
 
-h2{
+h2 {
   color: #57a99a;
   font-size: 2.5rem;
   font-weight: normal;
   padding: 0 0 0 0;
 }
 
-h3{
+h3 {
   color: #57a99a;
 }
 
-hr{
+hr {
   border-style: none none dotted none;
-	border-color: #ecf4f3;
-	border-width: 8px;
-	width: 10%;
+  border-color: #ecf4f3;
+  border-width: 8px;
+  width: 10%;
 }
 
-div{
+div {
   padding: 10px;
 }
 
-p{
+p {
   line-height: 2;
 }
 
 /***************[ Class Selectors ]***************/
 
-.section{
+.section {
   background-color: #d1eecc;
   border-radius: 16px;
 }
 
 /*****[ Top Container ]*****/
-.top-container{
+.top-container {
   background-color: #ecf4f3;
   padding: 100px 0 0 0;
   position: relative;
 }
 
-.top-cloud{
+.top-cloud {
   position: absolute;
   left: 75%;
   top: 10%;
 }
 
-.bottom-cloud{
+.bottom-cloud {
   bottom: 50%;
   position: absolute;
   right: 75%;
 }
 
-.mountain-img{
+.mountain-img {
   padding: 0;
   margin: 0;
   position: relative;
@@ -83,16 +83,16 @@ p{
 }
 
 /*****[ Middle Container ]*****/
-.middle-container{
+.middle-container {
   background-color: #60a9a6;
 }
 
-.profile{
+.profile {
   margin: 0;
   padding-bottom: 30px;
 }
 
-.profile-img{
+.profile-img {
   border-color: #57a99a;
   border-radius: 100%;
   border-style: solid;
@@ -104,18 +104,18 @@ p{
   width: 275px;
 }
 
-.section-desc{
+.section-desc {
   margin: auto;
   width: 40%;
 }
 
-.section-row{
+.section-row {
   margin: 100px auto 100px auto;
   text-align: justify;
   width: 50%;
 }
 
-.left-float-img{
+.left-float-img {
   float: left;
   margin-right: 30px;
   max-height: 192px;
@@ -123,7 +123,7 @@ p{
   width: 25%;
 }
 
-.right-float-img{
+.right-float-img {
   float: right;
   margin-left: 30px;
   max-height: 192px;
@@ -132,24 +132,24 @@ p{
 }
 
 /*****[ Bottom Container ]*****/
-.bottom-container{
+.bottom-container {
   background-color: #76dbd1;
   color: white;
   font-size: 10px;
 }
 
-.footer-link{
+.footer-link {
   color: #57a99a;
   text-align: center;
   text-decoration: none;
 }
 
-.footer-link:hover{
+.footer-link:hover {
   color: white;
 }
 
 /*****[ Navigation Bar ]*****/
-.navbar{
+.navbar {
   background-color: #ecf4f3;
   font-size: 20px;
   overflow: hidden;
@@ -159,7 +159,7 @@ p{
   z-index: 1;
 }
 
-.nav-left{
+.nav-left {
   float: left;
   display: block;
   color: #57a99a;
@@ -168,11 +168,11 @@ p{
   text-decoration: none;
 }
 
-.nav-left:hover{
+.nav-left:hover {
   color: black;
 }
 
-.nav-right{
+.nav-right {
   display: block;
   color: #57a99a;
   float: right;
@@ -181,12 +181,12 @@ p{
   width: 32px;
 }
 
-.last-icon{
+.last-icon {
   padding-right: 16px;
 }
 
 /*****[ Button ]*****/
-.btn{
+.btn {
   box-shadow: 0 10px 14px -7px #276873;
   background: linear-gradient(to bottom, #76dbd1 5%, #60a9a6 100%);
   background-color: #76dbd1;
@@ -203,11 +203,11 @@ p{
 }
 
 .btn:hover {
-	background: linear-gradient(to bottom, #60a9a6 5%, #57a99a 100%);
-	background-color: #60a9a6;
+  background: linear-gradient(to bottom, #60a9a6 5%, #57a99a 100%);
+  background-color: #60a9a6;
 }
 
 .btn:active {
-	position: relative;
-	top: 1px;
+  position: relative;
+  top: 1px;
 }
